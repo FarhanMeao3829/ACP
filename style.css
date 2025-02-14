@@ -1,6 +1,6 @@
 body {
   font-family: Verdana;
-  background-color: rgb(243, 211, 199);
+  background-color: rgb(234, 204, 193);
 }
 
 h1 {
@@ -46,4 +46,9 @@ p::first-letter {
 li {
   font-family: Cursive;
   font-size: 20px;
+}
+
+p {
+  font-family: Cursive;
+  font-size: 20px bold;
 }
