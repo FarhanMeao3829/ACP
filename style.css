@@ -1,0 +1,49 @@
+body {
+  font-family: Verdana;
+  background-color: rgb(243, 211, 199);
+}
+
+h1 {
+  font-family: Verdana;
+  color: #000000;
+  font-size: 37px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-family: Cursive;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+a::after {
+  content: "🐧";
+}
+
+ul > li {
+  font-weight: bold;
+}
+
+ul li:hover {
+  color: #000000;
+  font-size: 25px;
+}
+
+ul li::before {
+  content: "🐧";
+}
+p::first-letter {
+  font-size: 200%;
+  color: #ff7b72;
+}
+
+li {
+  font-family: Cursive;
+  font-size: 20px;
+}
